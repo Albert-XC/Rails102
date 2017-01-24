@@ -16,7 +16,7 @@ class PostsController < ApplicationController
 		if @post.save
 			redirect_to group_path(@group)
 		else
-			render :new
+			render :ne2w
 		end
 	end
 
